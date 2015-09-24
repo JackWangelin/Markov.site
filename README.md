@@ -20,4 +20,5 @@ Bootstrap is used to style.
 Adding in ReCaptcha
 Improving the randomization capacity
 Experimenting with a small value payment instead of ReCaptcha - debating whether or not this adds a goal from the creator side: plausibly my want to give concrete value to progression on the user side creates a goal of improving time spent on site.
- 
+Working out better page UX design for good & bad pages
+Does having a UXD per page affect the overall goal? Or does it just create a certain condition only on the page?
