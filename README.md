@@ -1,7 +1,7 @@
 #Markov.site
 
 ##Markov Chains
-A Markov chain describes the probability of states transition, the progression between states, & the given set of conditions that provides cause for probability. For more information & examples, visit the ![Markov Chain Wikipedia Page](http://en.wikipedia.org/wiki/Examples_of_Markov_chains).
+A Markov chain describes the probability of states transition, the progression between states, & the given set of conditions that provides cause for probability. For more information & examples, visit the [Markov Chain Wikipedia Page](http://en.wikipedia.org/wiki/Examples_of_Markov_chains "Markov Chain Wikipedia Page").
 
 ##The Site's Purpose
 This is an attempt to create an intrinsically bad user experience. I am attemptitng to remove my (the site's creator's) ability to define a goal for the visitor.
@@ -10,15 +10,15 @@ With no predefined goal, but assurance that the user is always taking the next s
 Enabling a user to experience negative emotions with no defined purpose, except whatever the user defines their own goal to be, achieves what I would name a Bad User Experience.
 
 ##Site Design
-3 buttons
-3 pages
-3 sets of heuristics
-.js is used to randomize the button links on one page.
-Bootstrap is used to style.
+- 3 buttons
+- 3 pages
+- 3 sets of heuristics
+- .js is used to randomize the button links on one page.
+- Bootstrap is used to style.
 
 ##Next Steps
-Adding in ReCaptcha
-Improving the randomization capacity
-Experimenting with a small value payment instead of ReCaptcha - debating whether or not this adds a goal from the creator side: plausibly my want to give concrete value to progression on the user side creates a goal of improving time spent on site.
-Working out better page UX design for good & bad pages
-Does having a UXD per page affect the overall goal? Or does it just create a certain condition only on the page?
+- Adding in ReCaptcha
+- Improving the randomization capacity
+- Experimenting with a small value payment instead of ReCaptcha - debating whether or not this adds a goal from the creator side: plausibly my want to give concrete value to progression on the user side creates a goal of improving time spent on site.
+- Working out better page UX design for good & bad pages
+- Does having a UXD per page affect the overall goal? Or does it just create a certain condition only on the page?
