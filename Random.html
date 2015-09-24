@@ -21,7 +21,7 @@
                         <div class="col-md-4">
                             <div class="jumbotron">
                                 <p>
-                                    <a class="btn btn-default center-block" href="#" role="button">1</a>
+                                    <input class="btn btn-default center-block" type="button" value="A" onClick=" Randomlink(); return(false)">
                                 </p>
                             </div>
                         </div>
@@ -29,7 +29,7 @@
                         <div class="col-md-4">
                             <div class="jumbotron">
                                 <p>
-                                    <a class="btn btn-default center-block" href="#" role="button">2</a>
+                                    <input class="btn btn-default center-block" type="button" value="B" onClick=" Randomlink(); return(false)">
                                 </p>
                             </div>
                         </div>
@@ -37,7 +37,7 @@
                         <div class="col-md-4">
                             <div class="jumbotron">
                                 <p>
-                                    <a class="btn btn-default center-block" href="#" role="button">3</a>
+                                    <input class="btn btn-default center-block" type="button" value="C" onClick=" Randomlink(); return(false)">
                                 </p>
                             </div>
                         </div>
@@ -49,7 +49,20 @@
         
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>    
+        <script src="js/bootstrap.min.js"></script> 
+        
+        <script type="text/javascript">
+function Randomlink(){
+    var Url = [];
+    Url[0] = "/Bad.html";
+    Url[1] = "/Good.html";
+    Url[2] = "/Random.html";
+
+    Chooselink = Math.round(Math.random()*(Url.length+1));
+    window.open(Url[Chooselink], "_self");
+}
+</script>
+                                         
     </body>
 </html>
     
