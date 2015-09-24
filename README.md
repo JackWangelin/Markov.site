@@ -1,7 +1,7 @@
 #Markov.site
 
 ##Markov Chains
-A Markov chain describes the probability of states transition, the progression between states, & the given set of conditions that provides cause for probability. For more information & examples, visit the ![Markov Chain Wikipedia Page](http://en.wikipedia.org/wiki/Examples_of_Markov_chains).
+A Markov chain describes the probability of states transition, the progression between states, & the given set of conditions that provides cause for probability. For more information & examples, visit the ![Markov Chain Wikipedia Page](http://en.wikipedia.org/wiki/Examples_of_Markov_chains "Markov Chain Wikipedia Page").
 
 ##The Site's Purpose
 This is an attempt to create an intrinsically bad user experience. I am attemptitng to remove my (the site's creator's) ability to define a goal for the visitor.
