@@ -23,7 +23,7 @@
                             <div class="jumbotron">
                                 <h2 class="text-center">Can't Touch This</h2>
                                 <p>
-                                    <a class="btn btn-danger center-block" disabled="disabled" href="/Good.html" role="button">A</a>
+                                    <a class="btn btn-danger center-block" disabled="disabled" href="/Good.html" role="button" onclick="DeltaConfirm();">A</a>
                                 </p>
                             </div>
                         </div>
@@ -32,7 +32,7 @@
                             <div class="jumbotron">
                                 <h2 class="text-center">A Poor Choice</h2>
                                 <p>
-                                    <a class="btn btn-success center-block" href="/Bad.html" role="button">B</a>
+                                    <a class="btn btn-success center-block" href="/Bad.html" role="button" onclick="DeltaConfirm();">B</a>
                                 </p>
                             </div>
                         </div>
@@ -41,7 +41,7 @@
                             <div class="jumbotron">
                                 <h2 class="text-center">Your Only Option</h2>
                                 <p>
-                                    <a class="btn btn-default center-block" href="/index.html" role="button">C</a>
+                                    <a class="btn btn-default center-block" href="/index.html" role="button" onclick="DeltaConfirm();">C</a>
                                 </p>
                             </div>
                         </div>
@@ -52,7 +52,18 @@
             </div>
         
         </div>
-            
+       <script>
+function DeltaConfirm() {
+    var x;
+    if (confirm("Do you want to proceed?") == true) {
+        
+        x = "You pressed OK!";
+    } else {
+        x = "You pressed Cancel!";
+    }
+    
+}
+</script>     
     </body>
 </html>
     
